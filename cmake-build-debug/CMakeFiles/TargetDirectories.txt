@@ -1,0 +1,3 @@
+/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir
