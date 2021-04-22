@@ -224,6 +224,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stack/SqStackDemo.o: stack/SqStackDemo.cpp.o
+
+.PHONY : stack/SqStackDemo.o
+
+# target to build an object file
+stack/SqStackDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o
+.PHONY : stack/SqStackDemo.cpp.o
+
+stack/SqStackDemo.i: stack/SqStackDemo.cpp.i
+
+.PHONY : stack/SqStackDemo.i
+
+# target to preprocess a source file
+stack/SqStackDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.i
+.PHONY : stack/SqStackDemo.cpp.i
+
+stack/SqStackDemo.s: stack/SqStackDemo.cpp.s
+
+.PHONY : stack/SqStackDemo.s
+
+# target to generate assembly for a file
+stack/SqStackDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.s
+.PHONY : stack/SqStackDemo.cpp.s
+
 universal/Universal.o: universal/Universal.cpp.o
 
 .PHONY : universal/Universal.o
@@ -269,6 +296,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stack/SqStackDemo.o"
+	@echo "... stack/SqStackDemo.i"
+	@echo "... stack/SqStackDemo.s"
 	@echo "... universal/Universal.o"
 	@echo "... universal/Universal.i"
 	@echo "... universal/Universal.s"

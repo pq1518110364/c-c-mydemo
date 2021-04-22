@@ -59,3 +59,57 @@ void reverse_1(LinkList *linkList){
     }
 }//反转
 
+void reverse_2(LinkList *linkList){
+    LNode *list= reinterpret_cast<LNode *>(linkList);
+    LNode *pre,*p=list->next,*r=p->next;
+    p->next=NULL;
+    while (r!=NULL){
+        pre=p;
+        p=r;
+        r=r->next;
+        p->next=pre;
+    }
+    list->next=p;
+};//反转 2.3.7(5)
+//--- 反转 2.3.7(6)
+void sort(LinkList *linkList){
+    LNode *list= reinterpret_cast<LNode *>(linkList);
+    LNode *p=list->next,*pre,*r=p->next;
+    p->next=NULL;
+    p=r;
+    while (p!=NULL){
+        r=p->next;
+        pre=list;
+        while (pre->next!=NULL&&pre->next->data<p->data)
+            pre=pre->next;
+        p->next=pre->next;
+        pre->next=p;
+        p=r;
+    }
+}
+void disCreate(LinkList *linkList){//2.3.7(10)
+    LNode *a= reinterpret_cast<LNode *>(linkList);
+    int i=0;
+    LNode *b= (LNode*)malloc(sizeof (LNode));
+    LNode *rb= b;
+    LNode *ra= a;
+    b->next=NULL;
+    LNode *p=a->next;
+    a->next=NULL;
+    while (p!=NULL){
+        i++;
+        if (i%2==0){
+            rb->next=p;
+            rb=p;
+        }else{
+            ra->next=p;
+            ra=p;
+        }
+        p=p->next;
+    }
+    rb->next=NULL;
+    ra->next=NULL;
+    queryAll(reinterpret_cast<LinkList *>(b));
+    queryAll(reinterpret_cast<LinkList *>(a));
+}
+

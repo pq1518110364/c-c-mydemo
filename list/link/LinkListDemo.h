@@ -16,6 +16,9 @@ typedef struct LNode{
 LinkList* createLinkList(bool b);//创建,是否创建头节点；
 void queryAll(LinkList *linkList);//遍历
 void reverse_1(LinkList *linkList);//反转 2.3.7(5)
+void reverse_2(LinkList *linkList);//反转 2.3.7(5)
+void sort(LinkList *linkList);//反转 2.3.7(6)
+void disCreate(LinkList *linkList);//2.3.7(10)
 void creatList_L();
 class LinkListDemo {
 

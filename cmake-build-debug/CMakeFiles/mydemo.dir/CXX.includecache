@@ -6,25 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.cpp
-LinkListDemo.h
-/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.h
+/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp
+SqStackDemo.h
+/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
 
-/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.h
-../../universal/Universal.h
+/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
+../universal/Universal.h
 /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
-
-/Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.h
-../../universal/Universal.h
-/Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
-
-/Users/xiangwei/CLionProjects/mydemo/main.cpp
-iostream
--
-list/seq/SeqListDemo.h
-/Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.h
-list/link/LinkListDemo.h
-/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.h
 
 /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
 iostream
