@@ -2,3 +2,6 @@
 - list
     - seq
     - link
+- stack & queue
+    - stack
+    - queue
