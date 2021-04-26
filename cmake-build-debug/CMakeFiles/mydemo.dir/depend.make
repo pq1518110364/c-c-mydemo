@@ -12,7 +12,17 @@ CMakeFiles/mydemo.dir/list/seq/SeqListDemo.cpp.o: ../universal/Universal.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../list/link/LinkListDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../list/seq/SeqListDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../main.cpp
+CMakeFiles/mydemo.dir/main.cpp.o: ../stack/LinkStackDemo.h
+CMakeFiles/mydemo.dir/main.cpp.o: ../stack/SqStackDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../universal/Universal.h
+
+CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../stack/LinkStackDemo.cpp
+CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../stack/LinkStackDemo.h
+CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../universal/Universal.h
+
+CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o: ../stack/SqStackDemo.cpp
+CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o: ../stack/SqStackDemo.h
+CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o: ../universal/Universal.h
 
 CMakeFiles/mydemo.dir/universal/Universal.cpp.o: ../universal/Universal.cpp
 CMakeFiles/mydemo.dir/universal/Universal.cpp.o: ../universal/Universal.h

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/list/link/LinkListDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/list/seq/SeqListDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/main.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/main.cpp.o"
+  "/Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/universal/Universal.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/universal/Universal.cpp.o"
   )

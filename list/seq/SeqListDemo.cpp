@@ -25,6 +25,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 //     return OK;
 // }
 SeqList* initSeqList(){
+    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
     SeqList *seq = new SeqList();
     seq->length=0;
     seq->lisesize=LIST_INIT_SIZE;

@@ -18,6 +18,7 @@ Status getTop(SqStack *sqStack,SElemType &elemType);//返回栈顶元素
 Status push(SqStack *sqStack,SElemType elemType);//插入元素
 Status pop(SqStack *sqStack,SElemType &elemType);
 Status push(SqStack *sqStack);//多个
+double Fib(int n);//斐波拉切
 class SqStackDemo {
 
 };

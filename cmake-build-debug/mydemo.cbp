@@ -95,6 +95,12 @@
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/main.cpp">
 			<Option target="mydemo"/>
 		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp">
+			<Option target="mydemo"/>
+		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.h">
+			<Option target="mydemo"/>
+		</Unit>
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp">
 			<Option target="mydemo"/>
 		</Unit>

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mydemo.dir/list/link/LinkListDemo.cpp.o"
   "CMakeFiles/mydemo.dir/list/seq/SeqListDemo.cpp.o"
   "CMakeFiles/mydemo.dir/main.cpp.o"
+  "CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o"
   "CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o"
   "CMakeFiles/mydemo.dir/universal/Universal.cpp.o"
   "mydemo"

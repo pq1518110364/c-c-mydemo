@@ -5,6 +5,7 @@
 #include "LinkListDemo.h"
 
 LinkList* createLinkList(bool b){
+    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
     LinkList *linkList= (LinkList*)malloc(sizeof (LNode));
     LNode *s,*r= reinterpret_cast<LNode *>(linkList); //r为尾指针
     if (b){

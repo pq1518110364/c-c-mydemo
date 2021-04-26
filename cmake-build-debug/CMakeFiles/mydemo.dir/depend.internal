@@ -13,6 +13,16 @@ CMakeFiles/mydemo.dir/main.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.h
  /Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.h
  /Users/xiangwei/CLionProjects/mydemo/main.cpp
+ /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
  /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
 CMakeFiles/mydemo.dir/universal/Universal.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/universal/Universal.cpp

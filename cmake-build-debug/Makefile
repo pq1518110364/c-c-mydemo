@@ -224,6 +224,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stack/LinkStackDemo.o: stack/LinkStackDemo.cpp.o
+
+.PHONY : stack/LinkStackDemo.o
+
+# target to build an object file
+stack/LinkStackDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o
+.PHONY : stack/LinkStackDemo.cpp.o
+
+stack/LinkStackDemo.i: stack/LinkStackDemo.cpp.i
+
+.PHONY : stack/LinkStackDemo.i
+
+# target to preprocess a source file
+stack/LinkStackDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.i
+.PHONY : stack/LinkStackDemo.cpp.i
+
+stack/LinkStackDemo.s: stack/LinkStackDemo.cpp.s
+
+.PHONY : stack/LinkStackDemo.s
+
+# target to generate assembly for a file
+stack/LinkStackDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.s
+.PHONY : stack/LinkStackDemo.cpp.s
+
 stack/SqStackDemo.o: stack/SqStackDemo.cpp.o
 
 .PHONY : stack/SqStackDemo.o
@@ -296,6 +323,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stack/LinkStackDemo.o"
+	@echo "... stack/LinkStackDemo.i"
+	@echo "... stack/LinkStackDemo.s"
 	@echo "... stack/SqStackDemo.o"
 	@echo "... stack/SqStackDemo.i"
 	@echo "... stack/SqStackDemo.s"

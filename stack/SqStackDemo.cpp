@@ -37,6 +37,7 @@ Status push(SqStack *sqStack,SElemType elemType){
 
 Status push(SqStack *sqStack) {
     SElemType elemType;
+    std::cout << "---请输出---" <<std::endl;
     char c;
     while((c=getchar())!='\n')
     {
@@ -63,6 +64,24 @@ Status pop(SqStack *sqStack,SElemType &elemType) {
     elemType=* --sqStack->top;
     return OK;
 };//删除元素
+double Fib(int n){
+    struct stack{
+        int no;//保存n
+        double val;//保存数值
+    }st[10];
+    int top = -1;
+    double fv1=0,fv2=1;
+    for (int j = n; j >2 ; j--) {
+        st[++top].no=j;
+    }
+    while (top>-1){
+        st[top].val=fv1+fv2;
+        fv1=fv2;
+        fv2=st[top].val;
+        top--;
+    }
+    return fv2;
+};//斐波拉切
 
 
 
