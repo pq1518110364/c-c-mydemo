@@ -224,6 +224,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+queue/LinkQueueDemo.o: queue/LinkQueueDemo.cpp.o
+
+.PHONY : queue/LinkQueueDemo.o
+
+# target to build an object file
+queue/LinkQueueDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o
+.PHONY : queue/LinkQueueDemo.cpp.o
+
+queue/LinkQueueDemo.i: queue/LinkQueueDemo.cpp.i
+
+.PHONY : queue/LinkQueueDemo.i
+
+# target to preprocess a source file
+queue/LinkQueueDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.i
+.PHONY : queue/LinkQueueDemo.cpp.i
+
+queue/LinkQueueDemo.s: queue/LinkQueueDemo.cpp.s
+
+.PHONY : queue/LinkQueueDemo.s
+
+# target to generate assembly for a file
+queue/LinkQueueDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.s
+.PHONY : queue/LinkQueueDemo.cpp.s
+
+queue/SqQueueDemo.o: queue/SqQueueDemo.cpp.o
+
+.PHONY : queue/SqQueueDemo.o
+
+# target to build an object file
+queue/SqQueueDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o
+.PHONY : queue/SqQueueDemo.cpp.o
+
+queue/SqQueueDemo.i: queue/SqQueueDemo.cpp.i
+
+.PHONY : queue/SqQueueDemo.i
+
+# target to preprocess a source file
+queue/SqQueueDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.i
+.PHONY : queue/SqQueueDemo.cpp.i
+
+queue/SqQueueDemo.s: queue/SqQueueDemo.cpp.s
+
+.PHONY : queue/SqQueueDemo.s
+
+# target to generate assembly for a file
+queue/SqQueueDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.s
+.PHONY : queue/SqQueueDemo.cpp.s
+
 stack/LinkStackDemo.o: stack/LinkStackDemo.cpp.o
 
 .PHONY : stack/LinkStackDemo.o
@@ -278,6 +332,60 @@ stack/SqStackDemo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.s
 .PHONY : stack/SqStackDemo.cpp.s
 
+str/StrDemo.o: str/StrDemo.cpp.o
+
+.PHONY : str/StrDemo.o
+
+# target to build an object file
+str/StrDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/str/StrDemo.cpp.o
+.PHONY : str/StrDemo.cpp.o
+
+str/StrDemo.i: str/StrDemo.cpp.i
+
+.PHONY : str/StrDemo.i
+
+# target to preprocess a source file
+str/StrDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/str/StrDemo.cpp.i
+.PHONY : str/StrDemo.cpp.i
+
+str/StrDemo.s: str/StrDemo.cpp.s
+
+.PHONY : str/StrDemo.s
+
+# target to generate assembly for a file
+str/StrDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/str/StrDemo.cpp.s
+.PHONY : str/StrDemo.cpp.s
+
+tree/BiTreeDemo.o: tree/BiTreeDemo.cpp.o
+
+.PHONY : tree/BiTreeDemo.o
+
+# target to build an object file
+tree/BiTreeDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o
+.PHONY : tree/BiTreeDemo.cpp.o
+
+tree/BiTreeDemo.i: tree/BiTreeDemo.cpp.i
+
+.PHONY : tree/BiTreeDemo.i
+
+# target to preprocess a source file
+tree/BiTreeDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.i
+.PHONY : tree/BiTreeDemo.cpp.i
+
+tree/BiTreeDemo.s: tree/BiTreeDemo.cpp.s
+
+.PHONY : tree/BiTreeDemo.s
+
+# target to generate assembly for a file
+tree/BiTreeDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.s
+.PHONY : tree/BiTreeDemo.cpp.s
+
 universal/Universal.o: universal/Universal.cpp.o
 
 .PHONY : universal/Universal.o
@@ -323,12 +431,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue/LinkQueueDemo.o"
+	@echo "... queue/LinkQueueDemo.i"
+	@echo "... queue/LinkQueueDemo.s"
+	@echo "... queue/SqQueueDemo.o"
+	@echo "... queue/SqQueueDemo.i"
+	@echo "... queue/SqQueueDemo.s"
 	@echo "... stack/LinkStackDemo.o"
 	@echo "... stack/LinkStackDemo.i"
 	@echo "... stack/LinkStackDemo.s"
 	@echo "... stack/SqStackDemo.o"
 	@echo "... stack/SqStackDemo.i"
 	@echo "... stack/SqStackDemo.s"
+	@echo "... str/StrDemo.o"
+	@echo "... str/StrDemo.i"
+	@echo "... str/StrDemo.s"
+	@echo "... tree/BiTreeDemo.o"
+	@echo "... tree/BiTreeDemo.i"
+	@echo "... tree/BiTreeDemo.s"
 	@echo "... universal/Universal.o"
 	@echo "... universal/Universal.i"
 	@echo "... universal/Universal.s"

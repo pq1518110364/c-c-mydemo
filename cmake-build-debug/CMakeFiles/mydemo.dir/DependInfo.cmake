@@ -7,8 +7,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/list/link/LinkListDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/list/seq/SeqListDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/main.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/main.cpp.o"
+  "/Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o"
+  "/Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o"
+  "/Users/xiangwei/CLionProjects/mydemo/str/StrDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/str/StrDemo.cpp.o"
+  "/Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o"
   "/Users/xiangwei/CLionProjects/mydemo/universal/Universal.cpp" "/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles/mydemo.dir/universal/Universal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

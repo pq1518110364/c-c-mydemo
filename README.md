@@ -5,3 +5,7 @@
 - stack & queue
     - stack
     - queue
+- string
+    - basic
+    - kmp
+- tree  

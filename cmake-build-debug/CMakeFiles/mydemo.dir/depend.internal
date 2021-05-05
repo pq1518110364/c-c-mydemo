@@ -13,8 +13,20 @@ CMakeFiles/mydemo.dir/main.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/list/link/LinkListDemo.h
  /Users/xiangwei/CLionProjects/mydemo/list/seq/SeqListDemo.h
  /Users/xiangwei/CLionProjects/mydemo/main.cpp
+ /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.h
  /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.h
  /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.h
  /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
 CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp
@@ -23,6 +35,16 @@ CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o
 CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.cpp
  /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/str/StrDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
+CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o
+ /Users/xiangwei/CLionProjects/mydemo/stack/SqStackDemo.h
+ /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp
+ /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.h
  /Users/xiangwei/CLionProjects/mydemo/universal/Universal.h
 CMakeFiles/mydemo.dir/universal/Universal.cpp.o
  /Users/xiangwei/CLionProjects/mydemo/universal/Universal.cpp

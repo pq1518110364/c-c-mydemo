@@ -155,6 +155,58 @@ CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp -o CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.s
 
+CMakeFiles/mydemo.dir/str/StrDemo.cpp.o: CMakeFiles/mydemo.dir/flags.make
+CMakeFiles/mydemo.dir/str/StrDemo.cpp.o: ../str/StrDemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mydemo.dir/str/StrDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mydemo.dir/str/StrDemo.cpp.o -c /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.cpp
+
+CMakeFiles/mydemo.dir/str/StrDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydemo.dir/str/StrDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.cpp > CMakeFiles/mydemo.dir/str/StrDemo.cpp.i
+
+CMakeFiles/mydemo.dir/str/StrDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydemo.dir/str/StrDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangwei/CLionProjects/mydemo/str/StrDemo.cpp -o CMakeFiles/mydemo.dir/str/StrDemo.cpp.s
+
+CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o: CMakeFiles/mydemo.dir/flags.make
+CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o: ../tree/BiTreeDemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o -c /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp
+
+CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp > CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.i
+
+CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp -o CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.s
+
+CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o: CMakeFiles/mydemo.dir/flags.make
+CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o: ../queue/LinkQueueDemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o -c /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.cpp
+
+CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.cpp > CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.i
+
+CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangwei/CLionProjects/mydemo/queue/LinkQueueDemo.cpp -o CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.s
+
+CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o: CMakeFiles/mydemo.dir/flags.make
+CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o: ../queue/SqQueueDemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o -c /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.cpp
+
+CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.cpp > CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.i
+
+CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.cpp -o CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.s
+
 # Object files for target mydemo
 mydemo_OBJECTS = \
 "CMakeFiles/mydemo.dir/main.cpp.o" \
@@ -162,7 +214,11 @@ mydemo_OBJECTS = \
 "CMakeFiles/mydemo.dir/list/link/LinkListDemo.cpp.o" \
 "CMakeFiles/mydemo.dir/universal/Universal.cpp.o" \
 "CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o" \
-"CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o"
+"CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o" \
+"CMakeFiles/mydemo.dir/str/StrDemo.cpp.o" \
+"CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o" \
+"CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o" \
+"CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o"
 
 # External object files for target mydemo
 mydemo_EXTERNAL_OBJECTS =
@@ -173,9 +229,13 @@ mydemo: CMakeFiles/mydemo.dir/list/link/LinkListDemo.cpp.o
 mydemo: CMakeFiles/mydemo.dir/universal/Universal.cpp.o
 mydemo: CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o
 mydemo: CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o
+mydemo: CMakeFiles/mydemo.dir/str/StrDemo.cpp.o
+mydemo: CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o
+mydemo: CMakeFiles/mydemo.dir/queue/LinkQueueDemo.cpp.o
+mydemo: CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o
 mydemo: CMakeFiles/mydemo.dir/build.make
 mydemo: CMakeFiles/mydemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mydemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xiangwei/CLionProjects/mydemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable mydemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mydemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,21 +5,32 @@
 #include "LinkListDemo.h"
 
 LinkList* createLinkList(bool b){
-    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
     LinkList *linkList= (LinkList*)malloc(sizeof (LNode));
     LNode *s,*r= reinterpret_cast<LNode *>(linkList); //r为尾指针
     if (b){
         s= (LNode*)malloc(sizeof (LNode));
-        s->data=NULL;
+        if (!s){
+            exit(OVERFLOW);
+        }
+        s->data=0;
         r->next=s;
         r=s;
     }
+    r->next=nullptr;
+    return linkList;
+}
+void initLinkList(LinkList* linkList){
+    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
+    LNode *s,*r= reinterpret_cast<LNode *>(linkList); //r为尾指针
     char c;
     while((c=getchar())!='\n')
     {
         if(c>='0'&&c<='9')
         {
             s= (LNode*)malloc(sizeof (LNode));
+            if (!s){
+                exit(OVERFLOW);
+            }
             ungetc(c,stdin);
             cin>>s->data;
             r->next=s;
@@ -27,15 +38,18 @@ LinkList* createLinkList(bool b){
         }else{
             for(int i=1;i<11;++i){
                 s= (LNode*)malloc(sizeof (LNode));
+                if (!s){
+                    exit(OVERFLOW);
+                }
                 s->data=i;
                 r->next=s;
                 r=s;
             }
         }
     }
-    r->next=NULL;
-    return linkList;
-}
+    r->next=nullptr;
+};
+
 
 void queryAll(LinkList *linkList){
     LNode *list= reinterpret_cast<LNode *>(linkList);

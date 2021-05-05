@@ -24,11 +24,15 @@ Code, Compile, Run and Debug online from anywhere in world.
 //     L.lisesize=0;
 //     return OK;
 // }
-SeqList* initSeqList(){
-    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
+SeqList* createSeqList(){
     SeqList *seq = new SeqList();
     seq->length=0;
     seq->lisesize=LIST_INIT_SIZE;
+    return seq;
+};
+
+void initSeqList(SeqList *seq){
+    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
     int i = 0;
     char c;
     while((c=getchar())!='\n')
@@ -50,7 +54,6 @@ SeqList* initSeqList(){
 // 	{
 // 		cout<<"a["<<j<<"]:"<<seq->elem[j]<<endl;
 // 	}
-    return seq;
 }
 //插入元素
 Status insertSeqList(SeqList *L,int i,int e){
@@ -107,7 +110,8 @@ void test_2_2_3_8_Reverse(int arrayList[],int left,int right,int size){
 }
 // --- 习题2.2.3.8
  void test_2_2_3_8(){
-    SeqList *seq = initSeqList();
+    SeqList *seq = createSeqList();
+     initSeqList(seq);
     test_2_2_3_8_Reverse(seq->elem,0,9,10);
     querySqlALL(seq);
     test_2_2_3_8_Reverse(seq->elem,0,4,10);
@@ -133,7 +137,8 @@ int half_search(int arrayList[],int n,DataType i){
 
 //---- 折半查找
 void test_2_2_3_9(){
-    SeqList *seq = initSeqList();
+    SeqList *seq = createSeqList();
+    initSeqList(seq);
     querySqlALL(seq);
     int n;
     cin>>n;

@@ -3,7 +3,7 @@
 //
 
 #include "SqStackDemo.h"
-SqStack* initSqStack(){
+SqStack* createSqStack(){
     SqStack *stack = (SqStack *)malloc(sizeof (SqStack));
     if (!stack){
         exit(OVERFLOW);
@@ -16,11 +16,28 @@ SqStack* initSqStack(){
     stack->top=stack->base;
     stack->stackSize=STACK_INIT_SIZE;
     return stack;
-};//初始化栈
+
+};
+void initSqStack(SqStack* sqStack){
+    std::cout << "---请输出数字，多个空格隔开，回车结束---" <<std::endl;
+    char c;
+    char data;
+    while((c=getchar())!='\n')
+        {
+            ungetc(c,stdin);
+            cin>>data;
+            push(sqStack,data);
+        }
+};//初始化
+
+bool isEmpty(SqStack *sqStack){
+    return sqStack->top==sqStack->base;
+}
 
 Status getTop(SqStack *sqStack,SElemType &elemType){
     if (sqStack->top==sqStack->base) return ERROR;
     elemType=*(sqStack->top-1);
+    return OK;
 };//返回栈顶元素
 
 Status push(SqStack *sqStack,SElemType elemType){

@@ -18,7 +18,8 @@ typedef struct{
     int lisesize;//当前分配容量
 }SeqList;
 typedef int DataType;
-SeqList* initSeqList();
+SeqList* createSeqList();
+void initSeqList(SeqList* seqList);
 Status insertSeqList(SeqList *L,int i,int e);
 void querySqlALL(SeqList *seq);
 Status insertSeqList(SeqList *L,int i,int e);
