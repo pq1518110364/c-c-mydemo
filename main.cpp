@@ -91,10 +91,20 @@ int main() {
 //    cout<<"树的高度"<<btDepth(biTNode)<<endl;
 //    cout<<"树的高度"<<btDepth2(biTNode)<<endl;
 //    findXAncestor(biTNode, 'f');
-    ThreadNode *threadNode=createThreadNode();
-    threadNode = initThreadNode(threadNode);
-    inThread(threadNode,nullptr);//中序建立索引二叉树
-    cout<<threadNode->data<<endl;
+    //ThreadNode *threadNode=createThreadNode();
+    //threadNode = initThreadNode(threadNode);
+    //inThread(threadNode,nullptr);//中序建立索引二叉树
+    //preThread(threadNode,nullptr);//前序索引树
+    //postThread(threadNode,nullptr);//前序索引树
+    //ancestor(threadNode,p,q);//查找公共祖先
+//    char pre[]={'a','b','d','e','c','f','g','h'};
+//    char in[]={'d','b','e','a','c','g','f','h'};
+//    char level[]={'a','b','c','d','e','f','g','h'};
+//    char in[]={'d','b','e','a','c','g','f','h'};
+//    BiTNode * biTNode= createBt3(level,in,7,0,7);//todo存在问题
+//    cout<<"层序遍历";
+//    levelOrder(biTNode);
+//    cout<<endl;
     return 0;
 }
 

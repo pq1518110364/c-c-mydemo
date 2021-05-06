@@ -41,5 +41,13 @@ ThreadNode *createThreadNode();
 ThreadNode *initThreadNode(ThreadNode *threadNode);
 ThreadNode *transformTN(ThreadNode *root, int k);
 void inThread(ThreadNode *tn,ThreadNode *pre);//中序建立索引二叉树
-
+void preThread(ThreadNode *tn,ThreadNode *pre);//前序建立索引二叉树
+void preOrder(ThreadNode *tn);//访问
+void postThread(ThreadNode *tn,ThreadNode *pre);//后序建立索引二叉树
+BiTNode *ancestor(BiTNode *bt,BiTNode *p,BiTNode *q);//求最近公共节点
+BiTNode * createBt(char pre[],char in[],int l1,int r1,int l2,int r2);//前序遍历和中序遍历确定二叉树
+BiTNode * createBt2(char post[],char in[],int l1,int r1,int l2,int r2);//后序遍历与中序确定二叉树
+BiTNode * createBt3(char level[],char in[],int n,int l,int r);//层序与中序确定二叉树
+int createBt3_Search(char in[],char key,int l,int r);
+void createBt3_getSubLevel(char lLevel[],char rLevel[],char in[],int j,int l,int r);
 #endif //MYDEMO_BITREE_H
