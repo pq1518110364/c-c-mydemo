@@ -278,6 +278,33 @@ queue/SqQueueDemo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.s
 .PHONY : queue/SqQueueDemo.cpp.s
 
+sort/SortDemo.o: sort/SortDemo.cpp.o
+
+.PHONY : sort/SortDemo.o
+
+# target to build an object file
+sort/SortDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/sort/SortDemo.cpp.o
+.PHONY : sort/SortDemo.cpp.o
+
+sort/SortDemo.i: sort/SortDemo.cpp.i
+
+.PHONY : sort/SortDemo.i
+
+# target to preprocess a source file
+sort/SortDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/sort/SortDemo.cpp.i
+.PHONY : sort/SortDemo.cpp.i
+
+sort/SortDemo.s: sort/SortDemo.cpp.s
+
+.PHONY : sort/SortDemo.s
+
+# target to generate assembly for a file
+sort/SortDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/sort/SortDemo.cpp.s
+.PHONY : sort/SortDemo.cpp.s
+
 stack/LinkStackDemo.o: stack/LinkStackDemo.cpp.o
 
 .PHONY : stack/LinkStackDemo.o
@@ -359,6 +386,33 @@ str/StrDemo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/str/StrDemo.cpp.s
 .PHONY : str/StrDemo.cpp.s
 
+tree/AvlTreeDemo.o: tree/AvlTreeDemo.cpp.o
+
+.PHONY : tree/AvlTreeDemo.o
+
+# target to build an object file
+tree/AvlTreeDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.o
+.PHONY : tree/AvlTreeDemo.cpp.o
+
+tree/AvlTreeDemo.i: tree/AvlTreeDemo.cpp.i
+
+.PHONY : tree/AvlTreeDemo.i
+
+# target to preprocess a source file
+tree/AvlTreeDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.i
+.PHONY : tree/AvlTreeDemo.cpp.i
+
+tree/AvlTreeDemo.s: tree/AvlTreeDemo.cpp.s
+
+.PHONY : tree/AvlTreeDemo.s
+
+# target to generate assembly for a file
+tree/AvlTreeDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydemo.dir/build.make CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.s
+.PHONY : tree/AvlTreeDemo.cpp.s
+
 tree/BiTreeDemo.o: tree/BiTreeDemo.cpp.o
 
 .PHONY : tree/BiTreeDemo.o
@@ -437,6 +491,9 @@ help:
 	@echo "... queue/SqQueueDemo.o"
 	@echo "... queue/SqQueueDemo.i"
 	@echo "... queue/SqQueueDemo.s"
+	@echo "... sort/SortDemo.o"
+	@echo "... sort/SortDemo.i"
+	@echo "... sort/SortDemo.s"
 	@echo "... stack/LinkStackDemo.o"
 	@echo "... stack/LinkStackDemo.i"
 	@echo "... stack/LinkStackDemo.s"
@@ -446,6 +503,9 @@ help:
 	@echo "... str/StrDemo.o"
 	@echo "... str/StrDemo.i"
 	@echo "... str/StrDemo.s"
+	@echo "... tree/AvlTreeDemo.o"
+	@echo "... tree/AvlTreeDemo.i"
+	@echo "... tree/AvlTreeDemo.s"
 	@echo "... tree/BiTreeDemo.o"
 	@echo "... tree/BiTreeDemo.i"
 	@echo "... tree/BiTreeDemo.s"

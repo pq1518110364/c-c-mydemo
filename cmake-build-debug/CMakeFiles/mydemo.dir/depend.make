@@ -14,6 +14,7 @@ CMakeFiles/mydemo.dir/main.cpp.o: ../list/seq/SeqListDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../main.cpp
 CMakeFiles/mydemo.dir/main.cpp.o: ../queue/LinkQueueDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../queue/SqQueueDemo.h
+CMakeFiles/mydemo.dir/main.cpp.o: ../sort/SortDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../stack/LinkStackDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../stack/SqStackDemo.h
 CMakeFiles/mydemo.dir/main.cpp.o: ../str/StrDemo.h
@@ -28,6 +29,10 @@ CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o: ../queue/SqQueueDemo.cpp
 CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o: ../queue/SqQueueDemo.h
 CMakeFiles/mydemo.dir/queue/SqQueueDemo.cpp.o: ../universal/Universal.h
 
+CMakeFiles/mydemo.dir/sort/SortDemo.cpp.o: ../sort/SortDemo.cpp
+CMakeFiles/mydemo.dir/sort/SortDemo.cpp.o: ../sort/SortDemo.h
+CMakeFiles/mydemo.dir/sort/SortDemo.cpp.o: ../universal/Universal.h
+
 CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../stack/LinkStackDemo.cpp
 CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../stack/LinkStackDemo.h
 CMakeFiles/mydemo.dir/stack/LinkStackDemo.cpp.o: ../universal/Universal.h
@@ -40,6 +45,10 @@ CMakeFiles/mydemo.dir/stack/SqStackDemo.cpp.o: ../universal/Universal.h
 CMakeFiles/mydemo.dir/str/StrDemo.cpp.o: ../str/StrDemo.cpp
 CMakeFiles/mydemo.dir/str/StrDemo.cpp.o: ../str/StrDemo.h
 CMakeFiles/mydemo.dir/str/StrDemo.cpp.o: ../universal/Universal.h
+
+CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.o: ../tree/AvlTreeDemo.cpp
+CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.o: ../tree/AvlTreeDemo.h
+CMakeFiles/mydemo.dir/tree/AvlTreeDemo.cpp.o: ../universal/Universal.h
 
 CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o: ../stack/SqStackDemo.h
 CMakeFiles/mydemo.dir/tree/BiTreeDemo.cpp.o: ../tree/BiTreeDemo.cpp

@@ -107,6 +107,12 @@
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/queue/SqQueueDemo.h">
 			<Option target="mydemo"/>
 		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/sort/SortDemo.cpp">
+			<Option target="mydemo"/>
+		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/sort/SortDemo.h">
+			<Option target="mydemo"/>
+		</Unit>
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/stack/LinkStackDemo.cpp">
 			<Option target="mydemo"/>
 		</Unit>
@@ -123,6 +129,12 @@
 			<Option target="mydemo"/>
 		</Unit>
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/str/StrDemo.h">
+			<Option target="mydemo"/>
+		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/tree/AvlTreeDemo.cpp">
+			<Option target="mydemo"/>
+		</Unit>
+		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/tree/AvlTreeDemo.h">
 			<Option target="mydemo"/>
 		</Unit>
 		<Unit filename="/Users/xiangwei/CLionProjects/mydemo/tree/BiTreeDemo.cpp">

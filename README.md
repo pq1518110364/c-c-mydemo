@@ -8,4 +8,7 @@
 - string
     - basic
     - kmp
-- tree  
+- tree
+  - 树相关
+- sort
+  - 直接插入排序，折半插入排序，shell排序

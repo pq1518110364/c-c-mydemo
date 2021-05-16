@@ -7,6 +7,7 @@
 #include "queue/SqQueueDemo.h"
 #include "queue/LinkQueueDemo.h"
 #include "tree/BiTreeDemo.h"
+#include "sort/SortDemo.h"
 
 
 int main() {
@@ -105,6 +106,20 @@ int main() {
 //    cout<<"层序遍历";
 //    levelOrder(biTNode);
 //    cout<<endl;
+    //直接插入排序
+    int A[]={1,49,38,65,97,76,13,27,55,4};
+    //insertSort(A,10);
+    //insertSort2(A,10);
+    shellSort(A,10);
+    cout<<"A[";
+    for (int i = 0; i < 10; ++i) {
+        if (i==9){
+            cout<<A[i]<<"]"<<endl;
+        }else{
+            cout<<A[i]<<",";
+        }
+    }
+
     return 0;
 }
 
